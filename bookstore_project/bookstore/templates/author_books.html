@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>{{ author.name }}'s Books</title></head>
+<body>
+  <h1>Books by {{ author.name }}</h1>
+  <ul>
+    {% for book in books %}
+      <li>{{ book.title }} - ₹{{ book.price }}</li>
+    {% empty %}
+      <li>No books found.</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

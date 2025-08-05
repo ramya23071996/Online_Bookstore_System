@@ -1,0 +1,12 @@
+.hero {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.9rem;
+}
